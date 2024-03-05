@@ -8,9 +8,15 @@
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
+    "bulma": "^0.9.4",
     "core-js": "^3.8.3",
+    "element-plus": "^2.5.6",
+    "firebase": "^10.8.0",
+    "v-mask": "^2.3.0",
     "vue": "^3.2.13",
+    "vue-cookies": "^1.8.3",
     "vue-router": "^4.0.3",
+    "vuefire": "^3.1.22",
     "vuex": "^4.0.0"
   },
   "devDependencies": {

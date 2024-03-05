@@ -80,8 +80,8 @@
     <img :src="imageViewUrl" alt="preview" />
   </el-dialog>
 </template>
-
-<script >
+  
+  <script >
 import {
   getStorage,
   ref,
@@ -205,12 +205,11 @@ export default {
   },
   mounted() {
     this.$store.dispatch("getTasks");
-    document.title = "Kundalik ishlar";
   },
 };
 </script>
-
-<style lang="scss">
+  
+  <style lang="scss">
 .home {
   margin-top: 40px;
   padding-bottom: 200px;
